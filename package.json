@@ -1,0 +1,17 @@
+{
+  "name": "slack-notifications",
+  "version": "1.0.0",
+  "description": "send tekton cloud event to slack. See: https://knative.dev/docs/serving/samples/hello-world/helloworld-nodejs/index.html and see: https://knative.dev/docs/serving/samples/cloudevents/cloudevents-nodejs/index.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cloudevents": "^4.0.2",
+    "express": "^4.17.1"
+  }
+}
